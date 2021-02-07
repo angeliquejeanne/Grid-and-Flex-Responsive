@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+
+    .container-grille {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-grille nav .liste-sidenav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container-grille nav .liste-sidenav li {
+        margin: 0 10px;
+    }
+    main p {
+        min-height: 610px;
+    }
+    aside p {
+        height: auto;
+    }
+
+}
